@@ -1,0 +1,66 @@
+/*
+* GRID CSS
+* @version: 1.0.0
+* @author: Bruno Ribeiro
+* @contact: brcarvalho1103@gmail.com
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 25px;
+}
+
+
+.row {
+    padding: 5px;
+    width: 100%;
+    min-height: 1px;
+    float: left;
+}
+
+.col {
+    background: #ccc;
+    min-height: 40px;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    display: inline-block;
+    float: left;
+}
+
+.col.col-1 {
+    width: 15.6667%
+}
+
+.col.col-2 {
+    width: 32.3333%
+}
+
+.col.col-3 {
+    width: 49%
+}
+
+.col.col-4 {
+    width: 65.6667%
+}
+
+.col.col-5 {
+    width: 82.3333%
+}
+
+.col.col-6 {
+    width: 99%
+}
+
+@media (max-width: 768px) {
+    .col {
+        width: 100% !important;
+        margin: 5px 0px;
+}
