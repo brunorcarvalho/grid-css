@@ -24,6 +24,7 @@
     float: left;
     box-sizing: border-box;
     margin-bottom: 0.5em;
+    min-height; 40px; /* utilizado somente para realizar a visualização do sistema de grid */
 }
 
 @media (min-width: 768px) {
